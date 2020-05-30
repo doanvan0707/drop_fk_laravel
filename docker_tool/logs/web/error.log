@@ -1,0 +1,72 @@
+[Wed Apr 01 12:47:45.928090 2020] [core:warn] [pid 49] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 01 12:47:45.932799 2020] [mpm_prefork:notice] [pid 49] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Wed Apr 01 12:47:45.932835 2020] [core:notice] [pid 49] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 01 12:55:26.079576 2020] [php7:warn] [pid 54] [client 172.18.0.1:53168] PHP Warning:  require(/var/www/html/blog/public/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/blog/public/index.php on line 24
+[Wed Apr 01 12:55:26.079621 2020] [php7:error] [pid 54] [client 172.18.0.1:53168] PHP Fatal error:  require(): Failed opening required '/var/www/html/blog/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/blog/public/index.php on line 24
+[Wed Apr 01 14:20:58.917218 2020] [php7:warn] [pid 58] [client 172.18.0.1:53730] PHP Warning:  require(/var/www/html/blog/public/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/blog/public/index.php on line 24
+[Wed Apr 01 14:20:58.917265 2020] [php7:error] [pid 58] [client 172.18.0.1:53730] PHP Fatal error:  require(): Failed opening required '/var/www/html/blog/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/blog/public/index.php on line 24
+[Thu Apr 02 06:42:30.168047 2020] [core:warn] [pid 36] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 02 06:42:30.171669 2020] [mpm_prefork:notice] [pid 36] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Thu Apr 02 06:42:30.171708 2020] [core:notice] [pid 36] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 02 07:28:46.682632 2020] [php7:warn] [pid 41] [client 172.18.0.1:32972] PHP Warning:  require(/var/www/html/blog/public/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/blog/public/index.php on line 24
+[Thu Apr 02 07:28:46.682713 2020] [php7:error] [pid 41] [client 172.18.0.1:32972] PHP Fatal error:  require(): Failed opening required '/var/www/html/blog/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/blog/public/index.php on line 24
+[Fri Apr 10 16:29:31.798548 2020] [core:warn] [pid 49] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 10 16:29:31.805462 2020] [mpm_prefork:notice] [pid 49] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Fri Apr 10 16:29:31.805513 2020] [core:notice] [pid 49] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Apr 10 16:56:15.620036 2020] [php7:error] [pid 57] [client 172.18.0.1:33162] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 345
+[Fri Apr 10 16:56:17.665841 2020] [php7:error] [pid 57] [client 172.18.0.1:33162] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/symfony/http-foundation/Response.php on line 1219
+
+Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unknown on line 0
+[Fri Apr 10 16:56:34.160365 2020] [php7:error] [pid 62] [client 172.18.0.1:33174] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php on line 51
+[Fri Apr 10 16:56:36.205165 2020] [php7:error] [pid 62] [client 172.18.0.1:33174] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/symfony/http-foundation/Response.php on line 1219
+
+Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unknown on line 0
+[Fri Apr 10 16:57:00.740041 2020] [php7:error] [pid 145] [client 172.18.0.1:33196] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php on line 189
+[Fri Apr 10 16:57:02.749875 2020] [php7:error] [pid 145] [client 172.18.0.1:33196] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/symfony/http-foundation/Response.php on line 1219
+
+Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unknown on line 0
+[Fri Apr 10 16:57:48.324165 2020] [php7:error] [pid 58] [client 172.18.0.1:33208] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 164
+[Fri Apr 10 16:57:50.333514 2020] [php7:error] [pid 58] [client 172.18.0.1:33208] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/symfony/http-foundation/Response.php on line 1219
+
+Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unknown on line 0
+[Fri Apr 10 16:58:25.052041 2020] [php7:error] [pid 146] [client 172.18.0.1:33260] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php on line 285
+[Fri Apr 10 16:58:27.057738 2020] [php7:error] [pid 146] [client 172.18.0.1:33260] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/symfony/http-foundation/Response.php on line 1219
+
+Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unknown on line 0
+[Fri Apr 10 16:59:06.336035 2020] [php7:error] [pid 56] [client 172.18.0.1:33292] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 164
+[Fri Apr 10 16:59:08.340542 2020] [php7:error] [pid 56] [client 172.18.0.1:33292] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/symfony/http-foundation/Response.php on line 1219
+
+Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unknown on line 0
+[Fri Apr 10 17:01:35.964042 2020] [php7:error] [pid 55] [client 172.18.0.1:33320] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php on line 180
+[Fri Apr 10 17:01:37.968458 2020] [php7:error] [pid 55] [client 172.18.0.1:33320] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/symfony/http-foundation/Response.php on line 1219
+
+Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unknown on line 0
+[Fri Apr 10 17:02:12.592753 2020] [php7:error] [pid 148] [client 172.18.0.1:33356] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 23
+[Fri Apr 10 17:02:14.635559 2020] [php7:error] [pid 148] [client 172.18.0.1:33356] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/symfony/http-foundation/Response.php on line 1219
+[Fri Apr 10 17:02:18.000465 2020] [php7:error] [pid 150] [client 172.18.0.1:33360] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/laravel/framework/src/Illuminate/Support/helpers.php on line 613
+
+Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unknown on line 0
+[Fri Apr 10 17:02:20.016594 2020] [php7:error] [pid 150] [client 172.18.0.1:33360] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/symfony/http-foundation/Response.php on line 1219
+
+Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unknown on line 0
+[Fri Apr 10 17:02:54.328062 2020] [php7:error] [pid 54] [client 172.18.0.1:33372] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/laravel/framework/src/Illuminate/View/View.php on line 155
+[Fri Apr 10 17:02:56.336143 2020] [php7:error] [pid 54] [client 172.18.0.1:33372] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/symfony/http-foundation/Response.php on line 1219
+
+Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unknown on line 0
+[Fri Apr 10 17:03:30.596053 2020] [php7:error] [pid 153] [client 172.18.0.1:33386] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php on line 62
+[Fri Apr 10 17:03:32.600721 2020] [php7:error] [pid 153] [client 172.18.0.1:33386] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/symfony/http-foundation/Response.php on line 1219
+
+Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unknown on line 0
+[Fri Apr 10 17:04:11.988030 2020] [php7:error] [pid 147] [client 172.18.0.1:33394] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php on line 51
+[Fri Apr 10 17:04:13.992099 2020] [php7:error] [pid 147] [client 172.18.0.1:33394] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/blog/vendor/symfony/http-foundation/Response.php on line 1219
+
+Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unknown on line 0
+[Sat Apr 11 05:14:57.160845 2020] [core:warn] [pid 36] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Apr 11 05:14:57.166708 2020] [mpm_prefork:notice] [pid 36] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Sat Apr 11 05:14:57.166752 2020] [core:notice] [pid 36] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Apr 11 13:52:19.265533 2020] [core:warn] [pid 36] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Apr 11 13:52:19.276874 2020] [mpm_prefork:notice] [pid 36] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Sat Apr 11 13:52:19.276918 2020] [core:notice] [pid 36] AH00094: Command line: '/usr/sbin/apache2'
+[Sat May 30 07:44:24.419399 2020] [core:warn] [pid 49] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat May 30 07:44:24.426521 2020] [mpm_prefork:notice] [pid 49] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Sat May 30 07:44:24.426563 2020] [core:notice] [pid 49] AH00094: Command line: '/usr/sbin/apache2'
